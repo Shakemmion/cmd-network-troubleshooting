@@ -4,7 +4,7 @@ This guide demonstrates how to use basic **Command Prompt (CMD) network commands
 - Press **Windows Key + R**
 - Type 'cmd' then **Enter**
 - Screenshot :
-- ![Open CMD] (screenshots/screenshotblankcmd.jpg)
+- ![Open CMD] (screenshots/screenshot_blankcmd.jpg)
 ---
 ## 2. Check Your IP Configuration
 - Open Command Prompt
