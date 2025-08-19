@@ -3,23 +3,21 @@ This guide demonstrates how to use basic **Command Prompt (CMD) network commands
 ## 1. Open Command Prompt
 - Press **Windows Key + R**
 - Type 'cmd' then **Enter**
-- Screenshot :
 - ![Open CMD](screenshots/screenshot_blankcmd.jpg)
 ---
 ## 2. Check Your IP Configuration
 - Open Command Prompt
 - Type 'ipconfig /all' then **Enter**
 - Displays IP address, Subnet mask, Default Gateway, DNS Servers.
-- Useful for checking if your device has a valid network setup.
-- Screenshot:
-  ![IP Config](screenshots/ipconfig_all.jpg)
+- 
+  ![IP Config](screenshots/ipconfigall.jpg)
   ---
 ## 3. Test Connectivity with Ping
 - Open Command Prompt
 - Type ping google.com
 - This confirms if your computer can reach the internet.
-- Replies mean it is working, timeouts mean problem
-- Screenshot:
+- Replies mean it is working, timeouts mean a problem
+  
 ![Ping Test Success](screenshots/pinggoogle.jpg)
 ![Ping Test Failure](screenshots/failedping.png)
 ---
@@ -29,7 +27,7 @@ This guide demonstrates how to use basic **Command Prompt (CMD) network commands
 - This shows the "hops" meaning how many hops it takes data to reach destination.
 - Helps identify where delays or blocks happen.
 - Screenshot:
-![Tracert](screenshot/tracert)
+![Tracert](screenshots/tracert.png)
 ---
 ## 5. Test DNS Resolution
 - Open Command Prompt
@@ -44,7 +42,7 @@ This guide demonstrates how to use basic **Command Prompt (CMD) network commands
 - Lists active connections, listening ports, and process IDs.
 - Help detect open connections or suspicious activity.
 - Screenshot:
-![Netstat](screenshots/netstat)
+![Netstat](screenshots/netstat.png)
 ---
 ## 7. Flush and Renew IP Address
 - Open Command Prompt
